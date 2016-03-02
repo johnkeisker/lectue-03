@@ -1,17 +1,10 @@
-main + a{
-  text-transform: uppercase;
-
+a:first-child {
+  color: chartreuse;
 }
 
-main > a{
-  color: goldenrod;
-  font-size: 2rem;
-
+a:nth-child(3) {
+  color: crimson;
 }
-
-.example-grandchild{
-  color: red;
-}
-a.example-grandchild#reddit{
-  font-size: 3rem;
+a:last-child {
+ color: coral;
 }
