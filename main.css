@@ -1,17 +1,22 @@
 body {
-  margin: 500px 0 0;
+  margin: 100px 0 100px;
+}
+div {
+  height: 150px;
+  width:  80px;
+  background-color: crimson;
+  transform: translate(50px, 100px);
 }
 
-
 main {
-  width: 100%;
+  width: 80%;
   height: 50px;
   background-color: burlywood;
 
 }
 
 article {
-  width: 100px;
+  width: 80%;
   height: 20px;
   background-color: #000;
 }
